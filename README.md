@@ -322,8 +322,10 @@ Run the project with:
 
 **Using [pip](https://pypi.org/project/pip/):**
 ```sh
-python {entrypoint}
+python -m uvicorn main:app --reload
 ```
+
+For route paths, request payloads, response formats, and authentication details, see the [API route guide](API_ROUTE_GUIDE.md).
 
 ### Testing
 

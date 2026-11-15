@@ -11,5 +11,5 @@ class TaskSchema(BaseModel):
 class TaskResponseSchema(BaseModel):
     id: int
     title : str | None = None
-    user_id : int 
+    user_id : int |None = None
     

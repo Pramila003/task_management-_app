@@ -14,7 +14,7 @@ def create_task(body:TaskSchema, db: Session, user:UserModel):
     db.add(new_task)
     db.commit()
     db.refresh(new_task)
-    return new_task
+    return new_task 
 
     
 
